@@ -421,13 +421,13 @@ font-size: 1rem;
     font-size: 18px;
   }
   main{
-    margin: 0.5rem;
+    margin: 0.2rem;
   }
   .ttl{
     font-size: 1.2rem;
   }
   .banner{
-    height: 100%;
+    height: 20rem;
   }
   .banner .title{
     padding: 0 1.2rem;
@@ -438,7 +438,7 @@ font-size: 1rem;
     padding: 0 1rem;
   }
   .banner .title .subtitle {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.2rem;
   }
   .banner .title button{
@@ -448,6 +448,7 @@ font-size: 1rem;
     font-size: 0.6rem
   }
   .benefits{
+    margin: 1rem 1rem 2rem 1rem;
     flex-direction: column;
   }
   .benefits .ben-img{
@@ -468,6 +469,7 @@ font-size: 1rem;
     padding: 0.5rem;
   }
   .product-info{
+      margin: 1rem;
       flex-direction: column;
   }
   .plain{
@@ -499,25 +501,25 @@ font-size: 1rem;
   .tri2,
   .tri3,
   .tri4 {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3rem;
+    height: 3rem;
     padding: 0.2rem;
   }
   .tri1 {
     top: 2rem; 
-    left: -2rem;
+    left: -1.5rem;
   }
   .tri2 {
     bottom: -1.5rem;
-    left: -2rem; 
+    left: -1.5rem; 
   }
   .tri3 {
     bottom: -1rem; 
-    left: -2rem;
+    left: -1.5rem;
   }
   .tri4 {
     bottom: -0.5rem;
-    left: -2rem;
+    left: -1.5rem;
   }
   .steps ul {
     list-style: none;
@@ -570,6 +572,30 @@ font-size: 1rem;
   }
   .img-display{
       width: 100%;
+  }
+  .tri1,
+  .tri2,
+  .tri3,
+  .tri4 {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.2rem;
+  }
+  .tri1 {
+    top: 2rem; 
+    left: -2rem;
+  }
+  .tri2 {
+    bottom: -1.5rem;
+    left: -2rem; 
+  }
+  .tri3 {
+    bottom: -1rem; 
+    left: -2rem;
+  }
+  .tri4 {
+    bottom: -0.5rem;
+    left: -2rem;
   }
   .plain{
     background-color: #f5f5f5;
