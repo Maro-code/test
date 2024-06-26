@@ -30,8 +30,10 @@ function showSlide(galleryId, index) {
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var buy = document.getElementById('buy');
-    buy.addEventListener('click', function() {
-      alert('Payment details:\n Account number: xxxx-xxxx-xx \n Bank name: Bank name \n Account name: ASACCOV GLOBAL NIGERIA LIMITED'+'\n Send proof of payment to 070-xxx-xxx-xxx' );
+    var buyButtons = document.querySelectorAll('.buy');
+    buyButtons.forEach(function(buyButton) {
+        buyButton.addEventListener('click', function() {
+            alert('Payment details:\n Account number: xxxx-xxxx-xx \n Bank name: Bank name \n Account name: ASACCOV GLOBAL NIGERIA LIMITED\n Send proof of payment to 070-xxx-xxx-xxx');
+        });
     });
-  });
+});
