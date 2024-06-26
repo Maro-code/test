@@ -540,11 +540,15 @@ border-right: 1px solid;
     background-color: #f5f5f5;
   }
   .footer-bottom ul li{
+    font-size: 0.5rem;  /*fix1*/
     padding: 0 0.2rem;
     margin: 0.2rem;
   }
   .special{
     text-align: center;
+  }
+  .special2 p{
+    font-size: 1em; /*fix2*/
   }
   .footer-section .social-icons a{
     font-family: 1rem;
@@ -651,11 +655,10 @@ border-right: 1px solid;
     padding: 0 0.2rem;
     margin: 0.2rem;
   }
-  .foot1 ul li{
-    font-size: 1.2rem;
+    .special li{
+    font-size: 1rem;
   }
-  .foot1, .foot2{
-    margin: 0 0.5rem;
+  .special2 p{
+    font-size: 1em;  /*fix2*/
   }
-
 }
