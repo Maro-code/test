@@ -375,6 +375,9 @@ footer {
   list-style: none;
   text-align: left;
 }
+.special li{
+  font-size: 1rem;
+}
 .footer-bottom ul{
   display: flex;
   justify-content: center;
@@ -651,11 +654,11 @@ border-right: 1px solid;
     height: 15rem;
   }
   .footer-bottom ul li{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     padding: 0 0.2rem;
     margin: 0.2rem;
   }
-    .special li{
+  .special li{
     font-size: 1rem;
   }
   .special2 p{
