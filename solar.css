@@ -533,6 +533,9 @@ border-right: 1px solid;
     list-style: none;
     padding: 0rem 0.2rem;
   }
+  .steps li{
+    font-size: 0.8rem;
+  }
   .plain{
     background-color: #f5f5f5;
   }
