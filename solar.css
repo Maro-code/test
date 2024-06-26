@@ -93,6 +93,7 @@ p {
   height: 3rem;
   font-size: 0.8rem;
   border: none;
+  border-radius: 0.2rem;
   transition: background-color 0.3s ease;
 }
 .banner .title button:hover{
