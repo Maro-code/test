@@ -33,7 +33,7 @@ function showSlide(galleryId, index) {
     var buyButtons = document.querySelectorAll('.buy');
     buyButtons.forEach(function(buyButton) {
         buyButton.addEventListener('click', function() {
-            alert('Payment details:\n Account number: xxxx-xxxx-xx \n Bank name: Bank name \n Account name: ASACCOV GLOBAL NIGERIA LIMITED\n Send proof of payment to 070-xxx-xxx-xxx');
+            alert('Payment details:\n Account number: 121371150 \n Bank name: Zenith Bank \n Account name: ASACCOV Global Nigeria Limited \n Send proof of payment to 08067336449');
         });
     });
 });
