@@ -93,7 +93,7 @@ p {
 }
 .banner .title button{
   background-color: #1DB31A;
-  color: black;
+  color: #fafafa;
   padding: 0.2rem;
   width: 6rem;
   height: 3rem;
@@ -103,7 +103,9 @@ p {
   transition: background-color 0.3s ease;
 }
 .banner .title button:hover{
-  background-color: #1a9e18;
+  background-color: #fafafa;
+  border: 1px solid #1a9e18;
+  color: #1a9e18;
 }
 .benefits{
   display: flex;
@@ -159,7 +161,7 @@ p {
 .img-display {
   width: 45%;
   margin: 0.5rem;
-  padding: 2rem 0.5rem;
+  padding: 1rem 0.5rem; /* Reduced padding */
   border: 1px solid #D8D8D8;
   border-radius: 1rem;
   box-shadow: 0 0 0.5rem #bbbcbc85;
@@ -173,15 +175,18 @@ p {
   padding: 0.5rem;
 }
 .purchase .buy{
-  padding: 1rem 4rem;
+  padding: 0.5rem 2rem;
   border: none;
   border-radius: 2rem;
   font-size: 1rem;
   background-color: #1DB31A;
+  color: #fafafa;
   transition: background-color 0.3s ease;
 }
 .purchase .buy:hover{
-  background-color: #1a9e18;
+  background-color: #fafafa;
+  border: 1px solid #1a9e18;
+  color: #1a9e18;
 }
 .price{
   margin: 0 0.5rem;
@@ -246,14 +251,14 @@ p {
   text-align: justify;
 }
 .product-info p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .plain p{
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .product-specs {
   border: 1.5px solid #D8D8D8;
-  padding: 1rem;
+  padding: 0 0.5rem;
 }
 .product-specs h2 {
   font-family: "Roboto Condensed", sans-serif;
@@ -266,9 +271,10 @@ p {
 .product-specs ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .product-specs li {
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
@@ -387,8 +393,8 @@ p {
   margin: 0.2rem 0;
 }
 footer {
-  background: #5db15b;
-  color: #000000;
+  background: #0e0e0e;
+  color: #fafafa;
   padding: 1em;
   text-align: center;
   display: flex;
