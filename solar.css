@@ -148,6 +148,7 @@ p {
 .benefits ul li{
   margin: 1rem 0;
   font-size: 1.2rem;
+  text-align: justify;
 }
 .product-info {
   display: flex;
