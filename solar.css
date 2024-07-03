@@ -458,6 +458,9 @@ footer p{
     margin: 1rem 1rem 2rem 1rem;
     flex-direction: column;
   }
+  .benefits ul li{
+    font-size: 1.1rem;
+  }
   .benefits .ben-img{
     width: 100%;
   }
