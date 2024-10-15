@@ -1,0 +1,5 @@
+Changes made:
+Introduction text hierarchy (fixed)
+The benefits section is now spaced out
+Font uniformity (All h2 has the same font size, same for all paragraphs and lists) #Except the steps to customize... section.
+Location icon in footer(removed)
